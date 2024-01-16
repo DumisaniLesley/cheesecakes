@@ -12,8 +12,8 @@ const Nav = () => {
         </Link>
         <ul className='hidden lg:flex gap-x-8 font-semibold items-center tracking-[2px] '>
           <Link href="/" className='border-b-2 border-1 border-[#6A4028] px-3 py-2'>Home</Link>
-          <Link href="/" className='px-3 py-2 '>About Us</Link>
-          <Link href="/" className='px-3 py-2 '>Menu</Link>
+          <Link href="/about" className='px-3 py-2 '>About Us</Link>
+          <Link href="/menu" className='px-3 py-2 '>Menu</Link>
           <Link href="/" className='px-3 py-2 '>Contact</Link>
         </ul>
         <div className='px-4'>
