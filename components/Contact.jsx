@@ -15,9 +15,9 @@ const Contact = () => {
           </div>
         </div>
         <form className='flex flex-col gap-y-4 px-4 mx-auto lg:mx-0 mt-6 lg:mt-0'>
-          <input type="text" placeholder='Name' className='w-[320px] lg:w-[420px] h-12 rounded-3xl pl-4 shadow-lg shadow-black/50'/>
-          <input type="email" placeholder='Email' className='w-[320px] lg:w-[420px] h-12 rounded-3xl pl-4 shadow-lg shadow-black/50'/>
-          <textarea name="" id="" cols="30" rows="8" placeholder='Your Message...' className='w-[320px] lg:w-[420px] rounded-3xl pl-4 pt-4 shadow-lg shadow-black/50'></textarea>
+          <input type="text" placeholder='Name' className='w-[320px] lg:w-[420px] h-12 rounded-3xl pl-4 shadow-lg shadow-black/50 focus:outline-none'/>
+          <input type="email" placeholder='Email' className='w-[320px] lg:w-[420px] h-12 rounded-3xl pl-4 shadow-lg shadow-black/50 focus:outline-none'/>
+          <textarea name="" id="" cols="30" rows="8" placeholder='Your Message...' className='w-[320px] lg:w-[420px] rounded-3xl pl-4 pt-4 shadow-lg shadow-black/50 focus:outline-none'></textarea>
           <button className='w-full bg-[#FFC468] py-3 rounded-3xl font-semibold tracking-wider mt-3'>Contact Us Now</button>
         </form>
       </div>
